@@ -1,12 +1,11 @@
 # app/main.py
 from dataclasses import dataclass
-from typing import List, Dict, Tuple
+from typing import Dict, List, Tuple
 
 import numpy as np
 import plotly.graph_objects as go
 import streamlit as st
-
-from i18n import t, language_selector
+from i18n import language_selector, t
 
 COLOR_MAP = [
     "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
