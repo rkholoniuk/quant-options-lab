@@ -1,1 +1,1 @@
-# quant-options-lab
+Option pricing app
